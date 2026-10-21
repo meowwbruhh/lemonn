@@ -1,0 +1,102 @@
+*{box-sizing:border-box;
+margin: 0;
+padding: 0;}
+body{
+    font-family: "Monsterant Alterantes", sans-serif;
+font-weight: 400;
+line-height: 1.6;
+color:rgb(247, 255, 255);
+background-color: rgb(134, 188, 170);
+}
+h1, h2, h3 {
+    font-weight: 800;
+}
+.header{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 40px;
+    background-color: rgb(228, 239, 248);
+}
+logo {
+    font-size: 24px;
+    font-weight: 800;
+}
+
+.menu a {
+    text-decoration: none;
+    color: #4e4f61;
+    margin-left: 20px;
+}
+
+.hero {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    padding: 60px 40px;
+}
+
+.hero-img {
+    width: 50%;
+    max-height: 400px;
+    object-fit: cover;
+    border-radius: 8px;
+}
+
+.hero-content {
+    width: 55%;
+}
+
+.hero-content h1 {
+    font-size: 44px;
+    margin-bottom: 20px;
+    font-weight: 600;
+    text-transform: uppercase;
+    line-height: 1.2;
+    margin-bottom: 20px;
+    color: #9eabcc;
+}
+
+
+.hero-content p {
+    font-size: 18px;
+    color: #605b79;
+
+}
+
+.btn {
+    display: inline-block;
+    padding: 12px 30px;
+    background-color: #202537;
+    color: #9eabcc;
+    text-decoration: none;
+    border-radius: 6px;
+    font-weight: 600;
+}
+
+.grid-section {
+    padding: 60px 40px;
+}
+
+.grid-section h2 {
+    font-size: 32px;
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+}
+
+.card {
+    background-color: #dadef6;
+    padding: 30px;
+    border-radius: 8px;
+    border: 1px solid #d4d7ef;
+}
+.card-hover {
+    transform: translateY(-5px); 
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.08);
+}
